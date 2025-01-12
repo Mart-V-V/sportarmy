@@ -1,9 +1,11 @@
 .page-text__grid-new {
     grid-template-columns: 1fr 2fr;
     align-items: flex-start;
+    margin-top: 64px;
     &-odd {
         grid-template-columns: 2fr 1fr;
         align-items: flex-start;
+        margin-top: 64px;
     }
 }
 .col-3-new {
@@ -60,8 +62,6 @@
             position: relative;
             z-index: 1;
             background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             color: #8BA6CC;
             width: 20%;
             figcaption {
@@ -88,6 +88,9 @@
 .block-guarantee {
     background: url(/img/icon_guarantee.svg) 24px 24px no-repeat #F7F7F7;
     padding: 24px 24px 24px 78px;
+    margin: 24px 0;
 }
-
+.line-black {
+    border-top: 3px solid #000;
+}
 
