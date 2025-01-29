@@ -1,4 +1,4 @@
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
     .col-3-new {
         .catalog-card__img {
             img {
@@ -52,3 +52,101 @@
     }
 
 }
+@media (max-width: 959px) {
+    .col-3-new {
+        grid-template-columns: repeat(2, auto);
+        .catalog-card__img {
+            height: auto;
+            img {
+                // max-width: 192px;
+                height: auto;
+                max-height: 320px;
+                aspect-ratio: 4 / 3
+            }
+        }
+    }
+    .page-text__grid-new, .page-text__grid-new-odd {
+        grid-template-columns: auto;
+        figure {
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .page-text__grid {
+        &.page-text__grid-new-odd {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .container-line {
+        .steps {
+            flex-direction: column;
+            gap: 30px;
+            .step {
+                width: calc(100% - 45px);
+                figure {
+                    display: flex;
+                    flex-direction: column-reverse;
+                    align-items: flex-start;
+                    width: 266px;
+                    margin-left: 20px;
+                    img {
+                        height: 106px;
+                    }
+                }
+                figcaption {
+                    height: auto;
+                }
+                &:last-child {
+                    width: calc(100% - 45px);
+                }
+            }
+            &:before {
+                width: 3px;
+                height: calc(80% + 30px);
+                transform: none;
+                top: 0;
+                bottom: 0;
+                right: 0;
+            }
+            .step-number {
+                bottom:0;
+                top: -10px;
+                left: -40px;
+            }
+        }
+    }
+    .page-mt-two {
+        margin-top: 96px;
+    }
+}
+
+@media (max-width: 480px) {
+    .col-3-new {
+        .catalog-card__img {
+            height: auto;
+            img {
+                max-width: 192px;
+                height: 132px;
+            }
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .col-3-new {
+        grid-template-columns: auto;
+        .catalog-card__img {
+            height: auto;
+            img {
+                max-width: 192px;
+                height: 132px;
+            }
+        }
+    }
+}
+
