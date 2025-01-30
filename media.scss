@@ -79,6 +79,27 @@
             flex-direction: column-reverse;
         }
     }
+    .container {
+        &.background-gray {
+            padding-bottom: 32px;
+        }
+    }
+    .page-mt {
+        margin-top: 64px;
+        padding-top: 0;
+    }
+    .page-mt-three {
+        margin-top: 64px;
+    }
+    .container-line {
+        padding-bottom: 0;
+    }
+    .page-text__grid {
+        margin-bottom: 0;
+    }
+    .page-text__grid-new-odd .page-text-col1 p, .page-text__grid-new-odd .page-text-col2 p {
+        display: inline-block;
+    }
 }
 
 @media (max-width: 680px) {
