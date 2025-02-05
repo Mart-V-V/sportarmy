@@ -85,7 +85,7 @@
     gap: 40px;
 }
 .col-3-new {
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
     .catalog-card {
         max-width: 487px;
         &__img {
