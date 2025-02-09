@@ -79,7 +79,7 @@
     }
 }
 .page-text__grid-odd {
-    grid-template-columns: 470px auto;
+    grid-template-columns: repeat(2, 1fr);
     align-items: flex-start;
     margin-top: 40px;
     gap: 40px;
@@ -130,7 +130,7 @@
         align-items: center;
         position: relative;
         margin-top: 71px;
-        width: 1376px;
+        max-width: 1376px;
         &:before {
             content: '';
             position: absolute;
@@ -146,7 +146,7 @@
             z-index: 1;
             background-color: #fff;
             color: #8BA6CC;
-            width: 20%;
+            max-width: 20%;
             &:last-child {
                 width: 140px;
             }
