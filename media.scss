@@ -63,6 +63,14 @@
            gap:0; 
         }
     }
+    .img-ful {
+        img {
+            width: 100%;
+        }
+       .fig-desc {
+        min-height: auto;
+       }
+    }
 
 }
 @media (max-width: 959px) {
