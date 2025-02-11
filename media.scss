@@ -205,7 +205,7 @@
     }
     .page-text {
         .chi-tit {
-            font-size: 32px;
+            font-size: clamp(1.625rem, -2.75rem + 17.5vw, 2.5rem);
         }
     }
 }
