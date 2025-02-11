@@ -192,7 +192,7 @@
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
     .col-3-new {
         grid-template-columns: auto;
         .catalog-card__img {
@@ -201,6 +201,11 @@
                 max-width: 192px;
                 height: 132px;
             }
+        }
+    }
+    .page-text {
+        .chi-tit {
+            font-size: 32px;
         }
     }
 }
