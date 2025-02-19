@@ -189,19 +189,28 @@
                 height: 132px;
             }
         }
+        .catalog-card__title {
+            height: auto;
+        }
     }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 479px) {
     .col-3-new {
-        grid-template-columns: auto;
+        // grid-template-columns: auto;
         .catalog-card__img {
             height: auto;
             img {
-                max-width: 192px;
-                height: 132px;
+                max-width: 100%;
+                height: auto;
             }
         }
+    }
+    .catalog-card__title {
+        word-break: break-word;
+    }
+    .catalog-card__content {
+        padding-top: 16px;
     }
     .page-text {
         .chi-tit {
@@ -209,4 +218,88 @@
         }
     }
 }
+@media (max-width: 400px) {
+    .col-3-new {
+        // grid-template-columns: auto;
+        .catalog-card__img {
+            height: auto;
+            img {
+                max-width: 110px;
+                width: 100%;
+                height: 76px;
+            }
+        }
+    }
+    .page-text {
+        .chi-tit {
+            word-break: break-word;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+        }
+    }
+    .page-text__grid-new .page-text-col1 p, .page-text__grid-new .page-text-col2 p, .page-text__grid-new-odd .page-text-col1 p, .page-text__grid-new-odd .page-text-col2 p, .list-new-bl p {
+        font-size: 15px;
+        line-height: 22px;
 
+    }
+    .page-text__grid-new .page-text-col1 .list-new-bl h3, .page-text__grid-new .page-text-col2 .list-new-bl h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .container-line .f-up {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+    }
+    .container-line .steps .step figcaption {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        max-width: 70%;
+    }
+    .container-line .steps .step figure img {
+        height: 90px;
+    }
+    .container-line .steps:before {
+        top: 10px;
+    }
+    .page-text__grid-new ul, .page-text__grid-new li {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .page-text__grid-new-odd h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .container.reload-kids .container, .page-mt, .page-mt-two, .page-mt-three {
+        margin-top: 48px;
+    }
+    .page-text__grid-new {
+        margin-top: 24px;
+    }
+    .container-line .steps {
+        margin-top: 54px;
+    }
+    .page-text__grid-new-odd {
+        margin-top: 0;
+    }
+    .block-guarantee {
+        padding: 78px 24px 24px 24px;
+    }
+    .line-black {
+        margin-top: 48px;
+    }
+    .category-desc.line-black {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: left;
+    }
+}
+
+
+/* удалить потом */
